@@ -5,6 +5,14 @@ Left Thumbstick: Left and right is movement to the left or right
                  Up and Down is the movement forward or backward
 Right Thumbstick: Left and right moves the camera, max rotation is 45° to each side
                   Up and Down is zoom in and zoom out
+A/1: Backflip
+B/2: Right Sideflip
+Y/3: Frontflip
+X/4: Left Sideflip
+LB + A/STRG + 1: Leg Grab
+LB + B/STRG + 2: B-Twist
+LB + Y/STRG + 3: Front Tumbling
+LB + X/STRG + 4: Gainer
 
 Keyboard and Mouse movement is also possible. A,W,S,D is for the movement and Mouse movement to left or right is camera rotation. Mouse Wheel is the camera zoom
 
