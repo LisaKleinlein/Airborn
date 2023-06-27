@@ -1,28 +1,7 @@
 # Airborn
 
-Buttons in the Game:
-Left Thumbstick: Left and right is movement to the left or right
-                 Up and Down is the movement forward or backward
-Right Thumbstick: Left and right moves the camera, max rotation is 45° to each side
-                  Up and Down is zoom in and zoom out
-A/1: Backflip
-B/2: Right Sideflip
-Y/3: Frontflip
-X/4: Left Sideflip
-LB + A/STRG + 1: Leg Grab
-LB + B/STRG + 2: B-Twist
-LB + Y/STRG + 3: Front Tumbling
-LB + X/STRG + 4: Gainer
+The Game can be played with keyboard and mouse or with a controller. The controls can be found in the main menu or in the pause menu under controls.
+_____________________________________________________________________________________________________________________________________________________
 
-Keyboard and Mouse movement is also possible. A,W,S,D is for the movement and Mouse movement to left or right is camera rotation. Mouse Wheel is the camera zoom
-
-_________________________________________________________________________________________________________________________________________________________________
-
-Variables to play with in Development (can change with the development):
-
-In the BP_ThirdPersonCharacter: zoomMultiplier: changes the speed in which the player can zoom in or out
-                                MovementSpeed: changes the speed of the movement of the player
-                                
-In the Windtunnel Blueprint: RangeX, RangeY and RangeZ: changes the dimensions of the Windtunnel 
-                             DistanceBetweenForceLines: The Blueprint works with raytracing and this variable determines how close the traces are and how many of them                                                           are there. A low number results in more traces and more computing power.
-                             MaxForce: The strength of the "wind" that blows the player into the air.
+This is a prototype of a game concept were the player flies and performs tricks during the avoidance of objects. The player gains points for tricks and tickcombos he performs without getting hit by an object. The objects vary in size, some are small and hard to see (sword) others are gigantic (pillars) and hard to avoid. If the player hits an object he looses the trick points that weren't added to the score, also the multiplier gets resetted.
+The Goal is to get as many points as possible before the song ends.
